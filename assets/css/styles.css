@@ -15,6 +15,7 @@
   --white-color: #fafaff;
   --dark-color: #2a3b47;
   --text-color: #697477;
+  --grey-color: #c9c9c9;
 }
 
 /*===== Fuente y tipografia =====*/
@@ -432,7 +433,7 @@ footer__container {
     color: var(--white-color);
   }
   .nav__link:hover {
-    color: var(--white-color);
+    color: var(--grey-color);
   }
   .active::after {
     background-color: var(--white-color);
